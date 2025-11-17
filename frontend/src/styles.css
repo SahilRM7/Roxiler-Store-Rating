@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f5f5f5;
+}
+
+input, select, textarea {
+  padding: 8px;
+  width: 100%;
+}
+
+button {
+  padding: 8px 14px;
+  background: #007bff;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+}

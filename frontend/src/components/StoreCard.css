@@ -1,0 +1,30 @@
+.better-store-card {
+  padding: 18px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.better-store-card:hover {
+  transform: translateY(-4px);
+}
+
+.card-header h3 {
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+.address {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.card-rating {
+  margin-bottom: 10px;
+}
+
+.rating-number {
+  font-size: 18px;
+  font-weight: bold;
+}

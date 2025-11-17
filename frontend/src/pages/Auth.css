@@ -1,0 +1,178 @@
+.auth-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f3f4f6;
+}
+
+.auth-card {
+  width: 350px;
+  background: white;
+  padding: 28px;
+  border-radius: 12px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.1);
+}
+
+.auth-card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.auth-card input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.auth-btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #4f46e5;
+  color: white;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.auth-btn:hover {
+  background: #4338ca;
+}
+
+.switch-text {
+  margin-top: 14px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.switch-link {
+  color: #4f46e5;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.switch-link:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+.page-container {
+  padding: 20px;
+}
+
+.page-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.empty-text {
+  color: #777;
+  margin-top: 20px;
+  font-style: italic;
+}
+
+/* Store Grid */
+.store-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 18px;
+}
+
+/* Store Card */
+.store-card {
+  background: white;
+  border-radius: 10px;
+  padding: 18px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease;
+}
+
+.store-card:hover {
+  transform: translateY(-4px);
+}
+
+.store-address {
+  color: #666;
+  margin: 8px 0;
+}
+
+.store-rating {
+  font-weight: bold;
+}
+
+/* Owner Dashboard Card */
+.store-dashboard-card {
+  background: #fff;
+  padding: 18px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 15px rgba(0,0,0,0.08);
+}
+
+/* Styled Table */
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.styled-table th {
+  background: #f5f5f5;
+  font-weight: bold;
+}
+
+/* Form Card */
+.form-card {
+  max-width: 600px;
+  margin: 20px auto;
+  background: white;
+  padding: 28px;
+  border-radius: 12px;
+  box-shadow: 0 5px 18px rgba(0,0,0,0.1);
+}
+
+.form-card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.form-btn {
+  width: 100%;
+  padding: 12px;
+  background: #4f46e5;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.form-btn:hover {
+  background: #4338ca;
+}

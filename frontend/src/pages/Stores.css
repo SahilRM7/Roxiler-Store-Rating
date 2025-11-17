@@ -1,0 +1,19 @@
+.stores-container {
+  padding: 20px;
+}
+
+.stores-title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.stores-subtitle {
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.stores-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+}

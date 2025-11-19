@@ -90,7 +90,7 @@ This project implements:
 ## 📌 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/yourrepo.git
+git clone https://github.com/SahilRM7/Roxiler-Store-Rating
 cd yourrepo
 ```
 
@@ -183,6 +183,8 @@ Create from signup page.
 # 🎬 Video Demonstration (Script Below)
 
 A detailed script is provided below to help you record a 4–5 min demo video.
+
+**https://drive.google.com/file/d/1p-R0iUr--L6cTG-hRzQ5XVk1SBhGrGBn/view?usp=drivesdk**
 
 ---
 
